@@ -41,13 +41,16 @@
     <v-card class="mx-auto"
     max-width="1250"
     flat>
-    <v-divider height="5px" color="dimgrey" />
+    
     <v-card flat
     height="20px"></v-card> 
-      <h3 style="color:dimgray">Our Vision</h3>
+      <h3 style="color:dimgray">Our Story</h3>
+      <v-divider height="5px" color="dimgrey" />
       <v-card flat
     height="2px"></v-card>
-      <p>To create a network of professionals from different crafts and engage in multi sectorial policy designing and shaping, subsequently promoting professionalism and research based, community driven sustainable solutions to problems with in the community.</p>
+      <p>It had been a regular day for us; we had been living amidst war for months. While returning from work, we ran into a man who carried bags of vegetables, the load of which seemed too heavy for him. Per our custom, we offered to help and were given directions to a school in the vicinity. Little did we know how fateful that day would be!
+<br>The school, known to few at the time, sheltered many displaced individuals who ran for safety, what we observed deeply affected us. It did not take us long to decide that we needed to take significant action, and we needed an army to do so. Hence, we talked to our friends, who spoke to more friends, resulting in doctors who wanted to help the displaced individuals.
+<br>Today, that small yet pivotal decision has created a team of over 400 medical and non-medical volunteers under the locally registered NGO of Maedot, selfless and dedicated to helping the affected people of Tigray.</p>
       <!-- <v-container fluid>
       <v-row dense>
         <v-col
@@ -70,6 +73,43 @@
       </v-row>
     </v-container> -->
     </v-card> 
+    <v-card class="mx-auto"
+    max-width="1250"
+    flat>
+    
+    <v-card flat
+    height="5px"></v-card> 
+      <h3 style="color:dimgray">Our Mission</h3>
+      <v-divider height="5px" color="dimgrey" />
+      <v-card flat
+    height="2px"></v-card>
+      <p>• To establish health surveillance and preventative measures.<br>
+        • Develop a means that ensures feasible and sustainable access to health care in the sites.<br>
+        • Provide a system for the appropriate solicitation of supervised aid according to the needs on the ground.<br>
+        • To identify and highlight the gravity of problems such as deterioration of nutritional status and find possible solutions to provide an appropriate response.<br>
+        • Coordinate with all interested parties and individuals to facilitate aid and promote better living conditions.<br>
+        • Design specific projects that are based on needs and collaborate as implementing partners.</p>
+        To fulfill our oaths and provide equitable health care for the community that nurtured and sheltered us.
+To create a transcendent organ that functions as a family to help our community.
+       
+    </v-card> 
+    <v-card class="mx-auto"
+    max-width="1250"
+    flat>
+    
+    <v-card flat
+    height="5px"></v-card> 
+      <h3 style="color:dimgray">Our Vission</h3>
+      <v-divider height="5px" color="dimgrey" />
+      <v-card flat
+    height="2px"></v-card>
+      <p>
+        • To fulfill our oaths and provide equitable health care for the community that nurtured and sheltered us.<br>
+        • To create a transcendent organ that functions as a family to help our community.</p>
+       
+    </v-card>
+    
+    
 
     <!-- image for trat -->
     <!-- <v-card :class="['card', `card--${$vuetify.breakpoint.name}`]" :style="{
