@@ -1,5 +1,12 @@
 <template>
-  <div class="contact">
+<div class="container">
+  <div class="centered">
+    <div class="product">
+      <h1>This page is Under construction!</h1>
+    </div>
+  </div>
+</div>
+  <!-- <div class="contact">
     <v-row justify="center">
     <v-col
       cols="12"
@@ -73,9 +80,22 @@ Use the following addresses to reach us. </P>
       </v-card>
     </v-col>
   </v-row>
-  </div>
+  </div> -->
 </template>
 <style>
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centered {
+  text-align: center;
+}
+
+
+
 .contact{
   margin-top: 65px;
 }

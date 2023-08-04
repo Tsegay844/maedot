@@ -1,5 +1,12 @@
 <template>
-  <div class="home">
+    <div class="container">
+  <div class="centered">
+    <div class="product">
+      <h1>This page is Under construction!</h1>
+    </div>
+  </div>
+</div>
+  <!-- <div class="home">
     <v-card :class="['card', `card--${$vuetify.breakpoint.name}`]" :style="{
       backgroundImage: `url(${bgImage})`,
       backgroundSize: 'cover',
@@ -36,7 +43,7 @@
         </v-row>
       </v-container>
     </v-card>
-  </div>
+  </div> -->
 </template>
 <script>
 export default {
@@ -59,9 +66,17 @@ export default {
 }
 </script>
 <style>
-.home {
-  margin-top: 65px;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
+
+.centered {
+  text-align: center;
+}
+
 
 .card-title-xs {
   font-size: 16px;

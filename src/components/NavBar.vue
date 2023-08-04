@@ -1,22 +1,22 @@
 <template>
   <nav :style="{ 'margin-left': drawer ? '230px' : '0' }">
-    <v-toolbar id="toolbar" class="teal" flat>
+    <v-toolbar id="toolbar" class="toolbar" flat style="height: 75px;">
       <!-- <v-icon @click.stop="drawer = !drawer">mdi-dots-vertical</v-icon> -->
-      <div class="logo-avatar"> <v-avatar class="teal" size="70">
-          <v-img src="../assets/logo.jpg" height="70" width="70" contain></v-img>
+      <div class="logo-avatar"> <v-avatar class="teal" size="75" style="margin-top: 10px; margin-left: 0px;">
+          <v-img src="../assets/mlogo.png" height="75" width="75" contain></v-img>
         </v-avatar>
       </div>
       <v-toolbar-title id="title" class="text-uppercase">
-        <P v-if="$vuetify.breakpoint.smAndUp" color="grey">እናት የኦቾሎኒ
- ቅቤ <br> Enat Peanut Butter</p>
-        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">እናት የኦቾሎኒ ቅቤ <br> Enat Peanut Butter</p>
+        <P v-if="$vuetify.breakpoint.smAndUp" color="grey" style="margin-left: 10px;"><h1>MAEDOT AID CHRITY ORGANIZATION</h1> </p>
+        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">MAEDOT AID <br> CHRITY ORGANIZATION</p>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="links"><v-toolbar-items>
+       
            <router-link v-if="$vuetify.breakpoint.mdAndUp" to="/Home" class="link"
             :style="{ color: 'black',   hover }">Home</router-link>
           <router-link v-if="$vuetify.breakpoint.mdAndUp" to="/OurProducts" class="link"
-            :style="{ color: 'black', hover }">Products</router-link>
+            :style="{ color: 'black', hover }">Programs</router-link>
           <router-link v-if="$vuetify.breakpoint.mdAndUp" to="/AboutView" class="link"
             :style="{ color: 'black' }">About Us</router-link>
           <router-link v-if="$vuetify.breakpoint.mdAndUp" to="/Contact" class="link"
@@ -65,7 +65,7 @@ export default {
       links: [
         // { icon: 'md:home', text: '', route: '/' },
         { icon: 'mdi-home ', text: 'Home', route: '/Home' },
-        { icon: 'mdi-food', text: 'Products', route: '/OurProducts' },
+        { icon: 'mdi-food', text: 'Programs', route: '/OurProducts' },
         { icon: 'mdi-briefcase', text: 'About Us', route: '/AboutView' },
         { icon: 'person', text: 'Contact-us', route: '/Contact' },
       ],

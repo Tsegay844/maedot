@@ -15,6 +15,7 @@ export default new Vuetify({
             white: '#FFFFFF',
             orange: '#004D40',
             accent4: '#6200EA',
+            toolbar: '#B2DFDB',
             teal: '#E0E0E0'
 
             
