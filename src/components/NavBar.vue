@@ -7,8 +7,8 @@
         </v-avatar>
       </div>
       <v-toolbar-title id="title" class="text-uppercase">
-        <P v-if="$vuetify.breakpoint.smAndUp" color="grey" style="margin-left: 10px;"><h1>MAEDOT AID CHRITY ORGANIZATION</h1> </p>
-        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">MAEDOT AID <br> CHRITY ORGANIZATION</p>
+        <P v-if="$vuetify.breakpoint.smAndUp" color="grey" style="margin-left: 10px;"><h1>MAEDOT AID CHARITY ORGANIZATION</h1> </p>
+        <P v-if="$vuetify.breakpoint.xs" style="font-size: 14px;" color="grey">MAEDOT AID <br> CHARITY ORGANIZATION</p>
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <div class="links"><v-toolbar-items>
